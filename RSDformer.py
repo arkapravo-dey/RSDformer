@@ -384,3 +384,4 @@ def RSDformer():
                                                num_blocks=[4, 8, 8, 4], heads=[2, 4, 8, 8],
                                                ffn_expansion_factor=3, bias=False, LayerNorm_type='WithBias')
 
+model = RSDformer()
